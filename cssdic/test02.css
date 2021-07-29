@@ -1,0 +1,63 @@
+/*类选择器*/
+.box2{
+    /*文字水平居中*/
+    text-align: center;
+}
+/*通过css文件引入*/
+.box3{
+    color:pink;
+    /*font-size: 36px;*/
+    /*font-weight: bold;*/
+    /*font-family: "Microsoft YaHei UI";*/
+    /*line-height: 60px;*/
+    font: bold 60px/100px "Microsoft YaHei UI";
+    /*文字缩进*/
+    text-indent: 20px;
+}
+/*标签选择器*/
+span{
+
+}
+/*给整个页面设置背景*/
+/*body{*/
+/*    background: green;*/
+/*}*/
+/*设置背景图片*/
+body{
+    /*background: rgb(255,255,25);*/
+    /*设置背景透明度*/
+    background: rgba(255,250,123,0.5);
+    /*background: url("../image/img_1.png");*/
+    height: 1000px;
+    /*设置背景平铺*/
+    /*background-repeat: no-repeat;*/
+    /*background-repeat: repeat-x;*/
+    /*background-repeat: repeat-y;*/
+    /*水平垂直都平铺*/
+    /*background-repeat: repeat;*/
+    /*背景定位*/
+    /*background-position: top;*/
+    /*background-position: bottom;*/
+    /*background-position: bottom;*/
+    /*background-position: left;*/
+    /*background-position: right;*/
+    /*background-position: 20% 20%;*/
+    /*background-position: 200px 200px;*/
+    /*设置图片固定，不会跟随屏幕滑动改变*/
+    background-attachment: fixed;
+    /*设置背景图片大小*/
+    /*background-size:10px 20px ;*/
+    /*background-size:10% 20% ;*/
+    /*background-size:auto;*/
+    /*背景填满容器*/
+    background-size:cover;
+}
+/*id选择器*/
+#box2{
+    font: bold 60px/100px "Microsoft YaHei UI";
+}
+
+/*属性选择器*/
+a[name]{
+    color:red;
+}
