@@ -61,3 +61,19 @@ body{
 a[name]{
     color:red;
 }
+/*层级选择器*/
+.box4 li{
+    color: red;
+}
+ .box4{
+     color: aqua;
+ }
+ /*组选择器*/
+.box1, #box2, .box3{
+    height: 300px;
+    background: darkblue;
+}
+/*伪选择器*/
+.box1:hover{
+    background: ivory;
+}
