@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe53bee-f47f-42c7-b553-1cf5f67e5501" name="Default" comment="commit study log11">
-      <change afterPath="$PROJECT_DIR$/connect_db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test0805.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/匿名函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/生成器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/装饰器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/迭代器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0822testcase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dhhh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/do_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/send_http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test0828.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/test_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多进程.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cssdic/test03.css" beforeDir="false" afterPath="$PROJECT_DIR$/cssdic/test03.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test03.html" beforeDir="false" afterPath="$PROJECT_DIR$/test03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/装饰器.py" beforeDir="false" afterPath="$PROJECT_DIR$/装饰器.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,38 +117,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Arvato-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Tencentstudy\0628study\image" />
+      <recent name="F:\Tencentstudy\0628study\testcase" />
       <recent name="F:\Tencentstudy\0628study" />
+      <recent name="F:\Tencentstudy\0628study\image" />
       <recent name="F:\Tencentstudy\0628study\venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.匿名函数">
-    <configuration name="迭代器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="0628study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/迭代器.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.send_http">
     <configuration name="生成器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="0628study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="connect_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="0628study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,7 +185,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect_db.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/装饰器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="webservice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="do_unittest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="0628study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,29 +207,96 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webservice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/do_unittest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="send_http" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="0628study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/send_http.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testcase.test_demo.Testdemo1.test_demo001" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="0628study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase.test_demo.Testdemo1.test_demo001&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for testcase.test_demo.Testdemo2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="0628study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcase.test_demo.Testdemo2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_demo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="0628study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_demo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.webservice" />
-      <item itemvalue="Python.connect_db" />
-      <item itemvalue="Python.迭代器" />
-      <item itemvalue="Python.生成器" />
-      <item itemvalue="Python.匿名函数" />
+      <item itemvalue="Python tests.Unittests in test_demo.py" />
+      <item itemvalue="Python.do_unittest" />
+      <item itemvalue="Python tests.Unittests for testcase.test_demo.Testdemo2" />
+      <item itemvalue="Python tests.Unittests for testcase.test_demo.Testdemo1.test_demo001" />
+      <item itemvalue="Python.send_http" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.匿名函数" />
-        <item itemvalue="Python.生成器" />
-        <item itemvalue="Python.迭代器" />
-        <item itemvalue="Python.connect_db" />
-        <item itemvalue="Python.webservice" />
+        <item itemvalue="Python.send_http" />
+        <item itemvalue="Python.do_unittest" />
+        <item itemvalue="Python tests.Unittests in test_demo.py" />
+        <item itemvalue="Python tests.Unittests for testcase.test_demo.Testdemo2" />
+        <item itemvalue="Python tests.Unittests for testcase.test_demo.Testdemo1.test_demo001" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +318,10 @@
       <workItem from="1626147017421" duration="208000" />
       <workItem from="1626704716370" duration="27123000" />
       <workItem from="1627821181893" duration="5675000" />
-      <workItem from="1628166234709" duration="15132000" />
+      <workItem from="1628166234709" duration="16621000" />
+      <workItem from="1629119830461" duration="8101000" />
+      <workItem from="1629599315095" duration="16000" />
+      <workItem from="1629599344774" duration="31437000" />
     </task>
     <task id="LOCAL-00001" summary="commit study log">
       <created>1625982046719</created>
@@ -343,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627825201174</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit study log11">
+      <created>1628775572632</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1628775572632</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -392,10 +449,30 @@
     <MESSAGE value="commit study log11" />
     <option name="LAST_COMMIT_MESSAGE" value="commit study log11" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/装饰器.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/0628study$connect_db.coverage" NAME="connect_db Coverage Results" MODIFIED="1628169641838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/0628study$.coverage" NAME="匿名函数 Coverage Results" MODIFIED="1628773265240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/0628study$test0828.coverage" NAME="test0828 Coverage Results" MODIFIED="1630119895220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/0628study$.coverage" NAME="多进程 Coverage Results" MODIFIED="1630335358998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/0628study$Unittests_in_test_demo_py.coverage" NAME="Unittests in test_demo.py Coverage Results" MODIFIED="1630505519388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/0628study$Unittests_for_test_demo_Testdemo1_test_demo001.coverage" NAME="Unittests for test_demo.Testdemo1.test_demo001 Coverage Results" MODIFIED="1630505381368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/0628study$do_unittest.coverage" NAME="do_unittest Coverage Results" MODIFIED="1630508454096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/0628study$send_http.coverage" NAME="send_http Coverage Results" MODIFIED="1630727992683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/0628study$webservice.coverage" NAME="webservice Coverage Results" MODIFIED="1627569850023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/0628study$Unittests_for_test_demo_Testdemo1.coverage" NAME="Unittests for test_demo.Testdemo1 Coverage Results" MODIFIED="1630505053764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/0628study$0822testcase.coverage" NAME="0822testcase Coverage Results" MODIFIED="1629724763047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/0628study$dhhh.coverage" NAME="dhhh Coverage Results" MODIFIED="1629129450025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/0628study$Unittests_for_test_demo_Testdemo2.coverage" NAME="Unittests for test_demo.Testdemo2 Coverage Results" MODIFIED="1630505404477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/with_tab.py">
